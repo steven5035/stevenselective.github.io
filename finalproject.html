@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        p {
+            text-align: center;
+        }
+    </style>
+    <metal charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <title>About me</title>
+</head>
+<header>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="websitecreastion.html">Website Code</a></li>
+                <li><a href="classexercise.html">Class Exercise</a></li>
+            </ul>
+        </nav>
+    </div>
+    <br><br><br>
+</header>
+<body>
+    <p style="text-align:center;">
+
+    <p>
+        <br><br><br>
+        Final Project
+        <br><br>
+        My plan for this project is to make a dustbin that will open for you when you wave it infront.<br>
+        It will monitor the dustbin capacity and will warn you when it is full<br><br>
+    <p style="text-align:center;">
+        <img src="finalproject1.png" />
+        <style>
+            img {
+                width: 500px;
+                height: 500px;
+            }
+        </style>
+    <p>
+        <br><br>
+        Circuit set up<br>
+        What is required:2 Ultrasonic sensor ,1 RBG LED and 1 servo motor<br><br>
+    <p style="text-align:center;">
+        <img src="finalproject2.png" />
+        <style>
+            img {
+                width: 500px;
+                height: 500px;
+            }
+        </style>
+    <p>
+        <br><br>
+    <p style="text-align:center;">
+        <img src="finalproject3.png" />
+        <style>
+            img {
+                width: 500px;
+                height: 500px;
+            }
+        </style>
+    <p>
+        <br><br>
+        Coding
+        <br>
+        To avoid confusion i will diffrentiate 2 ultrasonic sensor name with ultrasonic sensor 1 and 2.<br>
+        Sensor 1 is resposible with dustbin capacity and sensor 2 is reponsible with detection of hand movement.<br><br>
+    <p style="text-align:center;">
+        <img src="finalproject4.png" />
+        <style>
+            img {
+                width: 500px;
+                height: 500px;
+            }
+        </style>
+    <p>
+        Set up of all sensors ,REB LED and servo motor.<br><br>
+    <p style="text-align:center;">
+        <img src="finalproject5.png" />
+        <style>
+            img {
+                width: 500px;
+                height: 500px;
+            }
+        </style>
+    <p>
+        <br><br>
+        This make it so sensor 1 will detect anything above dustbin ,if it is overflow ,it will be triggered and set function = true<br>
+        If not ,it will = false. Function make sure the device function base on weather the dustbin is overflow<br>
+        If function = true ,sensor 2 will be disabled, LED RGB will be red and servo motor return to the original position<br>
+        If function = false ,sensor 2 will be active and LED RGB will be green.<br><br>
+    <p style="text-align:center;">
+        <img src="finalproject6.png" />
+        <style>
+            img {
+                width: 500px;
+                height: 500px;
+            }
+        </style>
+    <p>
+        <br><br>
+        Lastly sensor 2 function ,it is to detect anything within 5cm (like hand wave),if it dose ,servo motor will move 90 degree (to open the lid) <br>
+        There will be 5 second delay before it servo motor move back to its original position<br><br>
+        3D print<br>
+    <p style="text-align:center;">
+        <img src="finalproject7.png" />
+        <style>
+            img {
+                width: 500px;
+                height: 500px;
+            }
+        </style>
+    <p>
+        This is the holder of the ultrasonic sensor so it will be able to placed it against the wall<br>
+        I unfortunatly did not use the others (wire holder and servo motor holder) as i can use tape since its more efficient<br><br>
+    <p style="text-align:center;">
+        <img src="finalproject3.png" />
+        <style>
+            img {
+                width: 500px;
+                height: 500px;
+            }
+        </style>
+    <p>
+        <br><br>
+        Laser cut<br><br>
+        <iframe src="https://ichat4100.autodesk360.com/shares/public/SHd38bfQT1fb47330c99a2f2c0f1e1c287b1?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+        <br><br>
+        Problem ,there are 3 main problem<br>
+        1,the location of the circuit is too small (fixed)<br>
+
+        2, servo motor hand could not pick up anything (no lid ,not fixed)<br>
+        3, code is not working properly (not fixed)<br><br><br>
+        Project slide
+    <p style="text-align:center;">
+        <img src="finalproject8.png" />
+        <style>
+            img {
+                width: auto;
+                height: 500px;
+            }
+        </style>
+    <p>
+</body>
+</html>
